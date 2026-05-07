@@ -2,11 +2,7 @@
 
 🧾 个人记账应用 | Personal Expense Tracker — 简洁、高效、一目了然的日常收支管理工具。
 
-> 最新方向：项目后续改为 **Flutter 开发，Android 优先**。完整 Flutter 项目结构与技术方案见 [Flutter 技术方案](docs/FLUTTER_TECH_PLAN.md)。
 
-## 产品目标
-
-Lazy Bill 后续建议改为 Flutter 记账 App，Android 优先，重点覆盖：
 
 - 导入微信、支付宝 CSV 账单。
 - 自动区分收入、支出，并按关键词识别常见分类。
@@ -15,19 +11,7 @@ Lazy Bill 后续建议改为 Flutter 记账 App，Android 优先，重点覆盖�
 - 用柱状图/折线图展示累计消费和收入对比。
 - 支持选择某几个月对比，也支持按年份展示月度消费对比。
 
-## Flutter 开发规划
 
-本仓库此前包含 Swift/SwiftUI 原型；根据新的产品方向，下一步建议使用 Flutter 重建 Android 版本。规划文档包含：
-
-- Flutter 推荐技术栈。
-- `lib/core`、`lib/features` 分层项目结构。
-- 收入/支出、分类、账单记录、导入批次的数据模型。
-- CRUD、分类管理、微信/支付宝导入、折线图/饼图方案。
-- 周/月/年累计消费曲线和周期消费曲线的实现思路。
-
-详见：[docs/FLUTTER_TECH_PLAN.md](docs/FLUTTER_TECH_PLAN.md)。
-
-## 当前代码结构
 
 ```text
 Package.swift                         Swift Package 配置，提供 LazyBillCore 库
